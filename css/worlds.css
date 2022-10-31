@@ -1,0 +1,149 @@
+body {
+    background-color: red;
+}
+
+#content{
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+}
+
+header, footer{
+    background-color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 10px;
+}
+
+header{
+    color: blue;
+    font-size: 24pt;
+    align-items: center;
+    padding: 25px;
+}
+
+nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    font-family: 'Rubik', sans-serif;
+    color: blue;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 16pt;
+    font-family: 'Rubik', sans-serif;
+    background-color: blue;
+
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: black;
+    border-top: 1px solid rgba(0,0,0,0.5)
+}
+
+nav ul li.active a {
+    background-color: #696969;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    background-color: #808c92;
+}
+
+nav ul {display: none;}
+nav ul.open {display: block;}
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+
+main h1, main h2 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#table {
+    text-align: center;
+    align-items: center;
+    font-size: 16pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    background-color: gray;
+    color: black;
+}
+  
+th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h2 img {
+    width: 25px;
+}
+
+footer{
+    color: black;
+    padding: 10px;
+}
+
+#datediv{
+    color: black;
+    padding-top: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+    nav ul {display: none;}
+
+    #hamburgerBtn {
+        display: block;
+    }
+
+    nav ul li a {
+        border: none;
+        border-top: 1px solid rgba(0,0,0,0.5)
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    #hamburgerBtn {
+        display: none;
+    }
+
+    nav ul#primaryNav {
+        display: flex;
+        justify-content: center;
+        margin-left: 2vw;
+    }
+    
+    nav ul li a {
+        padding: .5rem 1rem;
+    }
+}
