@@ -80,7 +80,7 @@ main h1, main h2 {
 }
 
 table {
-    background-color: white;
+    background-color: lightgrey;
     font-family: 'Poppins', sans-serif;
     border-collapse: collapse;
     width: 90%;
