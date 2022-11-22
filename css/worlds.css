@@ -45,17 +45,17 @@ nav ul li a {
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
-    color: black;
+    color: yellow;
     border-top: 1px solid rgba(0,0,0,0.5)
 }
 
 nav ul li.active a {
-    background-color: #696969;
-    color: #fff;
+    background-color: red;
+    color: yellow;
 }
 
 nav ul li a:hover {
-    background-color: #808c92;
+    background-color: black;
 }
 
 nav ul {display: none;}
